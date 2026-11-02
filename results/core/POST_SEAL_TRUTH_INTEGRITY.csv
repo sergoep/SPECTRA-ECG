@@ -1,0 +1,9 @@
+check,passed
+truth_records_44,True
+truth_patients_20,True
+truth_windows_15840,True
+truth_events_17830,True
+blind_truth_same_window_universe,True
+blind_truth_scores_identical,True
+coverage_10_matches_V5,True
+coverage_20_matches_V5,True

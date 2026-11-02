@@ -1,0 +1,10 @@
+{
+  "rule": "SHA256('SPECTRA-META-FINAL-X10|'+record)",
+  "N": 4,
+  "records": [
+    "I55",
+    "I42",
+    "I58",
+    "I37"
+  ]
+}

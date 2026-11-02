@@ -1,0 +1,33 @@
+{
+  "source_results_zip_sha256": "8c30aa6ad6bf326b6d2aff6ee7ccc9be9fe4877eb150100d494d5858875595f4",
+  "source_notebook_sha256": "e7b59959f01d7766fcc30b9c2d529c58118cedfc98f0acb8ff187a9f8a7bdeb2",
+  "seal_checks": {
+    "decision_sha256": true,
+    "api_calls_sha256": true,
+    "route_membership_sha256": true,
+    "selection_sha256": true,
+    "manifest_243_entries_all_valid": true
+  },
+  "manifest_bad_entries": [],
+  "subset": {
+    "records": [
+      "I55",
+      "I42",
+      "I58",
+      "I37"
+    ],
+    "windows": 1440,
+    "patients": 4,
+    "endpoint_events": 2045,
+    "positive_windows": 656
+  },
+  "critical_accounting_note": {
+    "logical_route_metrics": "FINAL_ROUTE_SUMMARY counts 234 logical route panels. These are appropriate for fair independent-route workload comparisons.",
+    "actual_locked_requests": 224,
+    "locked_local_cache_hits": 10,
+    "actual_locked_cost_usd": 2.0728645,
+    "actual_pilot_plus_locked_requests": 226,
+    "actual_pilot_plus_locked_cost_usd": 2.0898299999999996,
+    "warning": "Do not describe FINAL_ROUTE_SUMMARY api_calls/cost as the literal billed request count/cost of this cached run."
+  }
+}

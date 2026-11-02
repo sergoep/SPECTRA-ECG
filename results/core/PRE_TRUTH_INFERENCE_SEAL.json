@@ -1,0 +1,8 @@
+{
+  "decisions_sha256": "26a2d9b1aee97184d89c57d68afd0c5ffa2d88cfd7229b1b21f9db55d67048fc",
+  "api_calls_sha256": "d1af779ad5965cd3d90433b7e259f8a6b54561eec5b67ab996516a5b263fac38",
+  "route_membership_sha256": "154feb49e01c97e03ae40dd9b9e299ceb7b84e68ea8802ce51744f0af374a25f",
+  "selection_sha256": "70ba27ecd7f441d7de6084626fa7f1428f36f0b0233fb5e3f6ac72fde6b9b6c3",
+  "prompt_version": "META_FINAL_X10_MULTIMODAL_V1_3",
+  "model": "muse-spark-1.3"
+}

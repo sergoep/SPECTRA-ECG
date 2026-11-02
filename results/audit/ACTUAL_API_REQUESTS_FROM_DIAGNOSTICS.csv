@@ -1,0 +1,3 @@
+stage,actual_requests,input_tokens,output_tokens,latency_sum_sec,actual_cost_usd
+locked,224,996128,194754,854.2430106309989,2.0728645
+pilot,2,8894,1376,6.858801986999879,0.0169655

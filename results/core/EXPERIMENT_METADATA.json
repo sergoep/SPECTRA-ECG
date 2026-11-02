@@ -1,0 +1,38 @@
+{
+  "experiment": "SPECTRA-ECG META FINAL X10 MULTIMODAL",
+  "created_utc": "2026-11-02T20:40:53Z",
+  "model_id": "muse-spark-1.3",
+  "api_base": "https://api.meta.ai/v1",
+  "prompt_version": "META_FINAL_X10_MULTIMODAL_V1_3",
+  "v5_2_zenodo_doi": "10.5281/zenodo.23866944",
+  "v5_2_archive_sha256": "64278cfbb9b4b8b8794a4cd118cc9e52c8a312bdc2a5c2f14892c2bbb21f6603",
+  "frozen_blind_table": "SPECTRA_ECG_V5_2_STATISTICAL_CLOSURE/frozen_v5_original/V5_BLIND_FEATURES_AND_SCORES_LOCKED.csv",
+  "sealed_truth_table": "SPECTRA_ECG_V5_2_STATISTICAL_CLOSURE/frozen_v5_original/V5_PRIMARY_WITH_GROUND_TRUTH.csv",
+  "frozen_blind_table_sha256": "5ae8e8f3e35f7bf08a0322ae5685e5cc8ec3e7b4364e09f3e6f70f4d0b6de6dc",
+  "selection_sha256": "70ba27ecd7f441d7de6084626fa7f1428f36f0b0233fb5e3f6ac72fde6b9b6c3",
+  "route_membership_sha256": "154feb49e01c97e03ae40dd9b9e299ceb7b84e68ea8802ce51744f0af374a25f",
+  "meta_records": [
+    "I55",
+    "I42",
+    "I58",
+    "I37"
+  ],
+  "window_seconds": 5.0,
+  "panel_windows": 8,
+  "routes": {
+    "FULL_META": 1440,
+    "SPECTRA_10_META": 144,
+    "SPECTRA_20_META": 288
+  },
+  "run_locked": true,
+  "uniform_controls_enabled": false,
+  "pricing": {
+    "input": 1.25,
+    "cached_input": 0.15,
+    "output": 4.25,
+    "units": "USD per 1M tokens; verify official pricing before any later rerun"
+  },
+  "scope": "non-diagnostic review prioritization research prototype",
+  "truth_separation": "waveform images/window IDs only before sealed inference",
+  "claim_boundary": "systems quality-compute trade-off; no Walsh superiority or clinical diagnosis"
+}
